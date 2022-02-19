@@ -1,6 +1,4 @@
-*{
-  box-sizing: border-box;
- }
+
  html{
      scroll-behavior: smooth;
  }
@@ -192,7 +190,7 @@
     width: 55px;
     height: 50px;
     position: relative;
-    float: right;
+   
  
  }
  .imm img{
@@ -442,6 +440,32 @@
    margin: 3px 0px;
    font-weight: normal;
  }
+ .prod .pay{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ }
+ .prod #data{
+   display: none;
+}
+.prod #data:target{
+  display: block;
+}
+.prod .pay a:first-child{
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  margin: auto 0px;
+  padding: 6px;
+}
+.prod .pay a:last-child i {
+  color: white;
+  background-color: gray;
+  text-decoration: none;
+  margin: auto 0px;
+  padding: 3px 6px;
+  margin: 10px 0px;
+}
    .prod span{
      display: block;
      font-size: 30;
@@ -828,6 +852,8 @@
  .padding{
    padding: 16px 0px;
  }
- .row{
-   --bs-gutter-x: 0px;
- }
+ /* .row{
+   --bs-gutter-x: 1;
+ } */
+ /*check out*/
+ 
