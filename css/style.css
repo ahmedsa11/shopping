@@ -855,5 +855,8 @@
  /* .row{
    --bs-gutter-x: 1;
  } */
- /*check out*/
- 
+ .totalp input{
+  width: 100px !important;
+  margin: 10px !important;
+  color:#333 !important;
+ }
